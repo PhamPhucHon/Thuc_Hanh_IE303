@@ -6,7 +6,6 @@ Repository này dùng để lưu trữ các bài **thực hành môn IE303** tro
 
 * **Họ tên:** Phạm Phúc Hơn
 * **Môn học:** IE303
-* **Trường / Khoa:** (thêm nếu cần)
 
 ---
 
@@ -41,7 +40,7 @@ IE303_Thuc_Hanh
 | Bài   | Nội dung                         | Trạng thái      |
 | ----- | -------------------------------- | --------------- |
 | Lab01 | Giới thiệu và cài đặt môi trường | ✔ Hoàn thành    |
-| Lab02 | Bài tập thực hành                | ⏳ Đang cập nhật |
+| Lab02 | Bài tập thực hành                | ✔ Hoàn thành |
 | Lab03 | Bài tập thực hành                | ⏳ Đang cập nhật |
 
 ---
