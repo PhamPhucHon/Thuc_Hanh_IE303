@@ -40,8 +40,8 @@ IE303_Thuc_Hanh
 | Bài   | Nội dung                         | Trạng thái      |
 | ----- | -------------------------------- | --------------- |
 | Lab01 | Giới thiệu và cài đặt môi trường | ✔ Hoàn thành    |
-| Lab02 | Bài tập thực hành                | ✔ Hoàn thành |
-| Lab03 | Bài tập thực hành                | ⏳ Đang cập nhật |
+| Lab02 | Bài tập thực hành                | ✔ Hoàn thành    |
+| Lab03 | Bài tập thực hành                | ✔ Hoàn thành    |
 
 ---
 
