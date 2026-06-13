@@ -28,8 +28,6 @@ Thông tin kết nối:
 | Password | Rỗng |
 | File CSDL | `lab4db.mv.db` |
 
-H2 embedded chạy trực tiếp cùng ứng dụng Java nên không cần cài thêm MySQL, PostgreSQL hoặc SQL Server.
-
 ## Cấu trúc thư mục
 
 ```text
@@ -78,12 +76,6 @@ Chương trình tự tạo bảng `products` khi chạy nếu bảng chưa tồn
 | `quantity` | `INT` | Số lượng |
 | `image_path` | `VARCHAR(500)` | Đường dẫn ảnh sản phẩm |
 
-## Dữ liệu mẫu
-
-Khi chương trình chạy, `Database.java` sẽ seed danh sách sản phẩm Adidas từ Lab 3 vào bảng `products` nếu các sản phẩm đó chưa tồn tại trong CSDL.
-
-Nhờ đó, Lab 4 vẫn giữ thông tin sản phẩm của Lab 3 nhưng nguồn dữ liệu đã được chuyển sang CSDL.
-
 ## Chức năng chính
 
 - Lưu thông tin sản phẩm vào CSDL H2.
@@ -111,9 +103,3 @@ java -cp ".;lib\h2.jar" TestRunner
 `TestRunner` sẽ kiểm tra việc lưu và truy vấn dữ liệu bằng cách:
 
 - In toàn bộ danh sách sản phẩm trong CSDL.
-
-## Lưu ý
-
-- Nên chạy chương trình từ thư mục `Lab_4` để file DB được tạo tại `Lab_4/lab4db.mv.db`.
-- Ảnh sản phẩm nằm trong `Lab_4/images`, còn đường dẫn lưu trong DB là dạng tương đối như `images/img1.png`.
-- Source hiện chưa khai báo `package`, vì vậy lệnh compile dùng `-d .` để đưa file `.class` về đúng thư mục chạy.
