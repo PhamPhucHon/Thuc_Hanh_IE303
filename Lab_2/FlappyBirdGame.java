@@ -1,5 +1,3 @@
-package Lab_2;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -235,7 +233,7 @@ public class FlappyBirdGame extends JPanel implements ActionListener, KeyListene
             g.setColor(Color.YELLOW);
             g.fillRect(birdX, birdY, BIRD_WIDTH, BIRD_HEIGHT);
         }
-
+        
         // Hiển thị điểm
         g.setColor(Color.WHITE);
         g.setFont(new Font("Arial", Font.BOLD, 28));
